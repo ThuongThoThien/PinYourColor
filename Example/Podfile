@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'PinYourColor_Example', :exclusive => true do
+  pod "PinYourColor", :path => "../"
+end
+
+target 'PinYourColor_Tests', :exclusive => true do
+  pod "PinYourColor", :path => "../"
+
+  
+end
