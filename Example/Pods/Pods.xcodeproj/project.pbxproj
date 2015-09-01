@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047C4743C60A32A24E0740853D7FB5CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B94F3755AAAB925EFC7DD82A69185DE /* Foundation.framework */; };
+		0B91C1E5955A9CAEC7684991AB25D6E4 /* PinYourColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 411FC2301B9694266F45F02B6210B038 /* PinYourColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E2F3CAD9B77D0A150C73D7763E31E00 /* PinYourColor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 87A3FD73DD17921C56BE50ACD8B32735 /* PinYourColor.bundle */; };
+		355BE4A79795BC63D61A5318FB2D2F67 /* Pods-PinYourColor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFED070EAE583ED3AAF612C18A3774B6 /* Pods-PinYourColor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37A97AD91471A9E37FCFB421F9256F61 /* Pods-PinYourColor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 176D4B353A931F25D8397D7CE03B4EAC /* Pods-PinYourColor_Example-dummy.m */; };
+		43A12EBF1B9670D700EA99B2 /* PinYourColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A12EBD1B9670D700EA99B2 /* PinYourColor.h */; };
+		43A12EC01B9670D700EA99B2 /* PinYourColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A12EBE1B9670D700EA99B2 /* PinYourColor.m */; };
+		6E3B0C7BC2A91D0C9CE84DB835D112C8 /* PinYourColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE3C676F6F7957DF1165610A303D67 /* PinYourColor-dummy.m */; };
+		AFA7A33408BFE0B4CDC5BC0991464B66 /* Pods-PinYourColor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87767F3212791C5281F88348F3D12DBB /* Pods-PinYourColor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67BB7281774D68CA76D38F98BF266B8 /* Pods-PinYourColor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80731F748F946E40BA71CCFE76E2FEE2 /* Pods-PinYourColor_Tests-dummy.m */; };
+		FBB51C915D9E898C219493B45EAF1A6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B94F3755AAAB925EFC7DD82A69185DE /* Foundation.framework */; };
+		FC9846BF4F592E62BBCA719B303DDB9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B94F3755AAAB925EFC7DD82A69185DE /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64C9FC62C5F0C66CC024E8BBA6EA7C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB48CEAA3D6121E476E1BDEE044A820;
+			remoteInfo = "PinYourColor-PinYourColor";
+		};
+		67C3E846B9AC412616B63F7E4B4AD816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 159660D1043731DAB7768BDEB833E2D4;
+			remoteInfo = PinYourColor;
+		};
+		FB947458CFCFBBD0E9BB1FAD6DBEBC71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 159660D1043731DAB7768BDEB833E2D4;
+			remoteInfo = PinYourColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EE3C676F6F7957DF1165610A303D67 /* PinYourColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinYourColor-dummy.m"; sourceTree = "<group>"; };
+		176D4B353A931F25D8397D7CE03B4EAC /* Pods-PinYourColor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinYourColor_Example-dummy.m"; sourceTree = "<group>"; };
+		176EA40151C410524E7B47246475EC8A /* Pods-PinYourColor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PinYourColor_Example.modulemap"; sourceTree = "<group>"; };
+		206FEA28A0786919B8D8028DA83C7961 /* Pods-PinYourColor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinYourColor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		291C9F363CF3258B3F91EFBCD0C41239 /* Pods-PinYourColor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinYourColor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2982A8793224A94461B46647045C2C14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A646EA0582319339D4EAD5FF9CE745 /* PinYourColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinYourColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		307B61D635F24F7B219CCAEF4A6B6E03 /* Pods_PinYourColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinYourColor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31565DCADA3D118960CBF196C7214BE3 /* Pods-PinYourColor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinYourColor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		411FC2301B9694266F45F02B6210B038 /* PinYourColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinYourColor-umbrella.h"; sourceTree = "<group>"; };
+		425099C20AE6C13918823AC6B3FD79CD /* Pods-PinYourColor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinYourColor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		43A12EBD1B9670D700EA99B2 /* PinYourColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYourColor.h; sourceTree = "<group>"; };
+		43A12EBE1B9670D700EA99B2 /* PinYourColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinYourColor.m; sourceTree = "<group>"; };
+		5AD942BE1C71BB40E8EA1A96A326482C /* Pods-PinYourColor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinYourColor_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		630D2ECB9840C0A385EE0DA712F13867 /* PinYourColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PinYourColor.modulemap; sourceTree = "<group>"; };
+		646D0A806DA3628EE1330DEE4F16A866 /* Pods-PinYourColor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinYourColor_Example-resources.sh"; sourceTree = "<group>"; };
+		675FF8D083A66A8BD07C85A71C711EBE /* Pods_PinYourColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinYourColor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80731F748F946E40BA71CCFE76E2FEE2 /* Pods-PinYourColor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinYourColor_Tests-dummy.m"; sourceTree = "<group>"; };
+		8473F32E7A0AE20F0C95D65DBFFEE6E8 /* PinYourColor-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PinYourColor-Private.xcconfig"; sourceTree = "<group>"; };
+		87767F3212791C5281F88348F3D12DBB /* Pods-PinYourColor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinYourColor_Tests-umbrella.h"; sourceTree = "<group>"; };
+		87A3FD73DD17921C56BE50ACD8B32735 /* PinYourColor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinYourColor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B94F3755AAAB925EFC7DD82A69185DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8E145D3D64095BA8351CD0DDB5F0E23A /* Pods-PinYourColor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinYourColor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A050D452E578BF062B43AFBDB10F31AF /* PinYourColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinYourColor-prefix.pch"; sourceTree = "<group>"; };
+		A2CFBC98A368AE2BA15D39C53E5C2A1D /* PinYourColor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinYourColor.xcconfig; sourceTree = "<group>"; };
+		AD3A83BDD72FDE58F50BF1819985C797 /* Pods-PinYourColor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinYourColor_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B42DFF3A8ACE3397AEF3756EE6C001C3 /* Pods-PinYourColor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinYourColor_Tests-resources.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAB7005A329BD68B2907124E1764ACEA /* Pods-PinYourColor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PinYourColor_Tests.modulemap"; sourceTree = "<group>"; };
+		C5BC255FDDE01F8BFBE37989C68F4C9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6E7CD2B9861AF48DF50A8A9013891C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFED070EAE583ED3AAF612C18A3774B6 /* Pods-PinYourColor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinYourColor_Example-umbrella.h"; sourceTree = "<group>"; };
+		E0750794E34891BA1C459F5AF2C7AC2B /* Pods-PinYourColor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinYourColor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E65BF7800827F13BB740FA1AF9536F18 /* Pods-PinYourColor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinYourColor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F65B2D0F36D8F885D1EECE2566699A95 /* Pods-PinYourColor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinYourColor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478E6644A4797B26401856EFCC3C631E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9846BF4F592E62BBCA719B303DDB9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A279C7C636C97640E353867F3C84EEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0B0E4B893F7E121039BBDDCA262C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB51C915D9E898C219493B45EAF1A6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51B605932BFACA3EF07A479390D09C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047C4743C60A32A24E0740853D7FB5CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ED51AD7EE9AB9B66509BFBEFE4B26D9 /* Pods-PinYourColor_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C5BC255FDDE01F8BFBE37989C68F4C9A /* Info.plist */,
+				176EA40151C410524E7B47246475EC8A /* Pods-PinYourColor_Example.modulemap */,
+				E0750794E34891BA1C459F5AF2C7AC2B /* Pods-PinYourColor_Example-acknowledgements.markdown */,
+				291C9F363CF3258B3F91EFBCD0C41239 /* Pods-PinYourColor_Example-acknowledgements.plist */,
+				176D4B353A931F25D8397D7CE03B4EAC /* Pods-PinYourColor_Example-dummy.m */,
+				AD3A83BDD72FDE58F50BF1819985C797 /* Pods-PinYourColor_Example-frameworks.sh */,
+				646D0A806DA3628EE1330DEE4F16A866 /* Pods-PinYourColor_Example-resources.sh */,
+				DFED070EAE583ED3AAF612C18A3774B6 /* Pods-PinYourColor_Example-umbrella.h */,
+				8E145D3D64095BA8351CD0DDB5F0E23A /* Pods-PinYourColor_Example.debug.xcconfig */,
+				E65BF7800827F13BB740FA1AF9536F18 /* Pods-PinYourColor_Example.release.xcconfig */,
+			);
+			name = "Pods-PinYourColor_Example";
+			path = "Target Support Files/Pods-PinYourColor_Example";
+			sourceTree = "<group>";
+		};
+		3F471B963794C7F85DAA4E89F528B652 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5EBF57D2EE4DA114BC3956099AEFAB4 /* PinYourColor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8B94F3755AAAB925EFC7DD82A69185DE /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7207BD57B797BC6A5AD1E8802C96C57F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				43A12EBD1B9670D700EA99B2 /* PinYourColor.h */,
+				43A12EBE1B9670D700EA99B2 /* PinYourColor.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		77141DB0CF7B9A145E38995213BB4535 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7207BD57B797BC6A5AD1E8802C96C57F /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				3F471B963794C7F85DAA4E89F528B652 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				FBD0ECC08439A770B163007E4E8C22D6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F60C3B74328FCCB5E0BE7FF861DF069 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2982A8793224A94461B46647045C2C14 /* Info.plist */,
+				630D2ECB9840C0A385EE0DA712F13867 /* PinYourColor.modulemap */,
+				A2CFBC98A368AE2BA15D39C53E5C2A1D /* PinYourColor.xcconfig */,
+				8473F32E7A0AE20F0C95D65DBFFEE6E8 /* PinYourColor-Private.xcconfig */,
+				04EE3C676F6F7957DF1165610A303D67 /* PinYourColor-dummy.m */,
+				A050D452E578BF062B43AFBDB10F31AF /* PinYourColor-prefix.pch */,
+				411FC2301B9694266F45F02B6210B038 /* PinYourColor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PinYourColor";
+			sourceTree = "<group>";
+		};
+		A063A39FF77FBB8DF4C601D5C39FCB8C /* Pods-PinYourColor_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DC6E7CD2B9861AF48DF50A8A9013891C /* Info.plist */,
+				BAB7005A329BD68B2907124E1764ACEA /* Pods-PinYourColor_Tests.modulemap */,
+				31565DCADA3D118960CBF196C7214BE3 /* Pods-PinYourColor_Tests-acknowledgements.markdown */,
+				206FEA28A0786919B8D8028DA83C7961 /* Pods-PinYourColor_Tests-acknowledgements.plist */,
+				80731F748F946E40BA71CCFE76E2FEE2 /* Pods-PinYourColor_Tests-dummy.m */,
+				5AD942BE1C71BB40E8EA1A96A326482C /* Pods-PinYourColor_Tests-frameworks.sh */,
+				B42DFF3A8ACE3397AEF3756EE6C001C3 /* Pods-PinYourColor_Tests-resources.sh */,
+				87767F3212791C5281F88348F3D12DBB /* Pods-PinYourColor_Tests-umbrella.h */,
+				425099C20AE6C13918823AC6B3FD79CD /* Pods-PinYourColor_Tests.debug.xcconfig */,
+				F65B2D0F36D8F885D1EECE2566699A95 /* Pods-PinYourColor_Tests.release.xcconfig */,
+			);
+			name = "Pods-PinYourColor_Tests";
+			path = "Target Support Files/Pods-PinYourColor_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5EBF57D2EE4DA114BC3956099AEFAB4 /* PinYourColor */ = {
+			isa = PBXGroup;
+			children = (
+				77141DB0CF7B9A145E38995213BB4535 /* Pod */,
+				8F60C3B74328FCCB5E0BE7FF861DF069 /* Support Files */,
+			);
+			name = PinYourColor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87A3FD73DD17921C56BE50ACD8B32735 /* PinYourColor.bundle */,
+				29A646EA0582319339D4EAD5FF9CE745 /* PinYourColor.framework */,
+				307B61D635F24F7B219CCAEF4A6B6E03 /* Pods_PinYourColor_Example.framework */,
+				675FF8D083A66A8BD07C85A71C711EBE /* Pods_PinYourColor_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD0ECC08439A770B163007E4E8C22D6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ED51AD7EE9AB9B66509BFBEFE4B26D9 /* Pods-PinYourColor_Example */,
+				A063A39FF77FBB8DF4C601D5C39FCB8C /* Pods-PinYourColor_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B6CFB2F6806DE319EF5A4930B914D189 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355BE4A79795BC63D61A5318FB2D2F67 /* Pods-PinYourColor_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF68A76278F93103FB0935D01F01FF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B91C1E5955A9CAEC7684991AB25D6E4 /* PinYourColor-umbrella.h in Headers */,
+				43A12EBF1B9670D700EA99B2 /* PinYourColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD4BEF8D2AAE85703C9E98D49A0D542 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA7A33408BFE0B4CDC5BC0991464B66 /* Pods-PinYourColor_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D7075E2722984A85CA223CDC3177CE2 /* Pods-PinYourColor_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB933E61E703D2862AC0FCB51B9D4240 /* Build configuration list for PBXNativeTarget "Pods-PinYourColor_Example" */;
+			buildPhases = (
+				23D5329000AD31A2CB802501B987EAD2 /* Sources */,
+				D51B605932BFACA3EF07A479390D09C2 /* Frameworks */,
+				B6CFB2F6806DE319EF5A4930B914D189 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2334BCE11D972BCA7F541C936B9F05D /* PBXTargetDependency */,
+			);
+			name = "Pods-PinYourColor_Example";
+			productName = "Pods-PinYourColor_Example";
+			productReference = 307B61D635F24F7B219CCAEF4A6B6E03 /* Pods_PinYourColor_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		159660D1043731DAB7768BDEB833E2D4 /* PinYourColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70799BFAC491EE2D18A537FD4DE2B42C /* Build configuration list for PBXNativeTarget "PinYourColor" */;
+			buildPhases = (
+				657A6A9B8AB2ACCE874072621F89667D /* Sources */,
+				CE0B0E4B893F7E121039BBDDCA262C05 /* Frameworks */,
+				E72DAE3C851D4D45CF0370852D7419B5 /* Resources */,
+				CCF68A76278F93103FB0935D01F01FF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80345E16271485FDFACECCF62187048 /* PBXTargetDependency */,
+			);
+			name = PinYourColor;
+			productName = PinYourColor;
+			productReference = 29A646EA0582319339D4EAD5FF9CE745 /* PinYourColor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6488631D610B2C2F1B1A667CFAF520A3 /* Pods-PinYourColor_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2228E64583AE5BC8602C7A923DEF9168 /* Build configuration list for PBXNativeTarget "Pods-PinYourColor_Tests" */;
+			buildPhases = (
+				BC9EE46608E41E55B234B51F70D65E83 /* Sources */,
+				478E6644A4797B26401856EFCC3C631E /* Frameworks */,
+				CDD4BEF8D2AAE85703C9E98D49A0D542 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFB5AAB3F93079C90B69F1785B6BE6E /* PBXTargetDependency */,
+			);
+			name = "Pods-PinYourColor_Tests";
+			productName = "Pods-PinYourColor_Tests";
+			productReference = 675FF8D083A66A8BD07C85A71C711EBE /* Pods_PinYourColor_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECB48CEAA3D6121E476E1BDEE044A820 /* PinYourColor-PinYourColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E14BF46B2DCABDA9B0CD8C72C18A1E0 /* Build configuration list for PBXNativeTarget "PinYourColor-PinYourColor" */;
+			buildPhases = (
+				63A021E1D9DC314F6927BDCE123524B0 /* Sources */,
+				A279C7C636C97640E353867F3C84EEE3 /* Frameworks */,
+				EDC1DACF9F51344803501999FB669812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PinYourColor-PinYourColor";
+			productName = "PinYourColor-PinYourColor";
+			productReference = 87A3FD73DD17921C56BE50ACD8B32735 /* PinYourColor.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				159660D1043731DAB7768BDEB833E2D4 /* PinYourColor */,
+				ECB48CEAA3D6121E476E1BDEE044A820 /* PinYourColor-PinYourColor */,
+				0D7075E2722984A85CA223CDC3177CE2 /* Pods-PinYourColor_Example */,
+				6488631D610B2C2F1B1A667CFAF520A3 /* Pods-PinYourColor_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E72DAE3C851D4D45CF0370852D7419B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2F3CAD9B77D0A150C73D7763E31E00 /* PinYourColor.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC1DACF9F51344803501999FB669812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23D5329000AD31A2CB802501B987EAD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A97AD91471A9E37FCFB421F9256F61 /* Pods-PinYourColor_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A021E1D9DC314F6927BDCE123524B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657A6A9B8AB2ACCE874072621F89667D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A12EC01B9670D700EA99B2 /* PinYourColor.m in Sources */,
+				6E3B0C7BC2A91D0C9CE84DB835D112C8 /* PinYourColor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9EE46608E41E55B234B51F70D65E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67BB7281774D68CA76D38F98BF266B8 /* Pods-PinYourColor_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A80345E16271485FDFACECCF62187048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PinYourColor-PinYourColor";
+			target = ECB48CEAA3D6121E476E1BDEE044A820 /* PinYourColor-PinYourColor */;
+			targetProxy = 64C9FC62C5F0C66CC024E8BBA6EA7C1B /* PBXContainerItemProxy */;
+		};
+		AAFB5AAB3F93079C90B69F1785B6BE6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinYourColor;
+			target = 159660D1043731DAB7768BDEB833E2D4 /* PinYourColor */;
+			targetProxy = FB947458CFCFBBD0E9BB1FAD6DBEBC71 /* PBXContainerItemProxy */;
+		};
+		B2334BCE11D972BCA7F541C936B9F05D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinYourColor;
+			target = 159660D1043731DAB7768BDEB833E2D4 /* PinYourColor */;
+			targetProxy = 67C3E846B9AC412616B63F7E4B4AD816 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		10241268259EB3B15706E39B8E884FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65BF7800827F13BB740FA1AF9536F18 /* Pods-PinYourColor_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PinYourColor_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PinYourColor_Example/Pods-PinYourColor_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PinYourColor_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		670957C122C7E00E632486A21C4D2D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 425099C20AE6C13918823AC6B3FD79CD /* Pods-PinYourColor_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PinYourColor_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PinYourColor_Tests/Pods-PinYourColor_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PinYourColor_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D6C16C84AE8B03220249707D1B8A610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8473F32E7A0AE20F0C95D65DBFFEE6E8 /* PinYourColor-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PinYourColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		99D76F9599052383F2ED7D4022C806A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E145D3D64095BA8351CD0DDB5F0E23A /* Pods-PinYourColor_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PinYourColor_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PinYourColor_Example/Pods-PinYourColor_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PinYourColor_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A4576209239B1C6A383ED083849C79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8473F32E7A0AE20F0C95D65DBFFEE6E8 /* PinYourColor-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PinYourColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DE35A3DC2350E5B2164627C8A2095A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8473F32E7A0AE20F0C95D65DBFFEE6E8 /* PinYourColor-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PinYourColor/PinYourColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinYourColor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PinYourColor/PinYourColor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PinYourColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E67A3D26FFD5A2A6AB7B35FDB9C0C720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65B2D0F36D8F885D1EECE2566699A95 /* Pods-PinYourColor_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PinYourColor_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PinYourColor_Tests/Pods-PinYourColor_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PinYourColor_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB5B52B4DBD30DEBAC693F99D3DC38E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8473F32E7A0AE20F0C95D65DBFFEE6E8 /* PinYourColor-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PinYourColor/PinYourColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinYourColor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PinYourColor/PinYourColor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PinYourColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E14BF46B2DCABDA9B0CD8C72C18A1E0 /* Build configuration list for PBXNativeTarget "PinYourColor-PinYourColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6C16C84AE8B03220249707D1B8A610 /* Debug */,
+				9A4576209239B1C6A383ED083849C79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2228E64583AE5BC8602C7A923DEF9168 /* Build configuration list for PBXNativeTarget "Pods-PinYourColor_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670957C122C7E00E632486A21C4D2D00 /* Debug */,
+				E67A3D26FFD5A2A6AB7B35FDB9C0C720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70799BFAC491EE2D18A537FD4DE2B42C /* Build configuration list for PBXNativeTarget "PinYourColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE35A3DC2350E5B2164627C8A2095A8C /* Debug */,
+				FB5B52B4DBD30DEBAC693F99D3DC38E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB933E61E703D2862AC0FCB51B9D4240 /* Build configuration list for PBXNativeTarget "Pods-PinYourColor_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D76F9599052383F2ED7D4022C806A5 /* Debug */,
+				10241268259EB3B15706E39B8E884FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

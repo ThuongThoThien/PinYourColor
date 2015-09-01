@@ -1,0 +1,14 @@
+PODS:
+  - PinYourColor (0.1.0)
+
+DEPENDENCIES:
+  - PinYourColor (from `../`)
+
+EXTERNAL SOURCES:
+  PinYourColor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PinYourColor: 75ba099f1272ef449f82628524e21a54075fe304
+
+COCOAPODS: 0.38.2

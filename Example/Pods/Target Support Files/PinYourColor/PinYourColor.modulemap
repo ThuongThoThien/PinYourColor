@@ -1,0 +1,6 @@
+framework module PinYourColor {
+  umbrella header "PinYourColor-umbrella.h"
+
+  export *
+  module * { export * }
+}
