@@ -10,13 +10,22 @@
 
 @implementation PinYourColor
 
-@synthesize yourColor;
+@synthesize likeColor;
+@synthesize hateColor;
 
 -(void) enterTheColorYouLike:(NSString *)color {
-    [self setYourColor:color];
+    [self setLikeColor:color];
 }
 
--(void) printColor {
-    NSLog(@"Your favorites color: %@", self.yourColor);
+-(void) enterTheColorYouHate:(NSString *)color {
+    [self setHateColor:color];
+}
+
+-(void) printLikeColor {
+    NSLog(@"Your favorites color: %@", self.likeColor);
+}
+
+-(void) printHateColor {
+    NSLog(@"Your favorites color: %@", self.hateColor);
 }
 @end

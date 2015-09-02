@@ -10,8 +10,11 @@
 
 @interface PinYourColor : NSObject
 
-@property (nonatomic, weak) NSString *yourColor;
+@property (nonatomic, weak) NSString *likeColor;
+@property (nonatomic, weak) NSString *hateColor;
 
--(void) enterTheColorYouLike:(NSString *) color;
--(void) printColor;
+-(void) enterTheColorYouLike:(NSString *) likecolor;
+-(void) enterTheColorYouHate:(NSString *) hateColor;
+-(void) printLikeColor;
+-(void) printHateColor;
 @end
